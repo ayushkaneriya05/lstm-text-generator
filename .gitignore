@@ -1,0 +1,22 @@
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+.pytest_cache/
+.ipynb_checkpoints/
+
+# Local dataset and generated ML artifacts
+data/shakespeare.txt
+models/*.keras
+models/experiments/
+models/tokenizer.pkl
+outputs/*.png
+outputs/*.txt
+outputs/*.csv
+
+# OS/editor files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
